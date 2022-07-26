@@ -1,0 +1,35 @@
+.operate{
+  z-index: 2;
+  .el-input {
+    min-width: 100% !important;
+  }
+  .map_operation{
+    button{
+      padding: 0;
+      .map-name{
+        height:35px !important;
+        img{
+          width: 15px;
+          height: 15px;
+        }
+        >span {
+          font-size: 14px;
+          margin: 0 5px;
+        }
+      };
+    }
+  }
+}
+.map_operation_menu{
+  li{
+    padding: 0 10px !important;
+    background: #3e6093;
+    color: #fff;
+  }
+}
+.works-dislog{
+  .el-select{
+    width: 100%;
+  }
+}
+

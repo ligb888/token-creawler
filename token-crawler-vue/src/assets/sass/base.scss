@@ -1,0 +1,86 @@
+/**
+ * @author Gjf
+ * @date 2021-08-16
+ * @description 排版规范 模板文件
+*/
+
+/* margin */
+.m-1 {
+  margin: 10px;
+}
+
+.m-t-1 {
+  margin-top: 10px;
+}
+
+.m-b-1 {
+  margin-bottom: 5px;
+}
+
+.m-l-1 {
+  margin-left: 10px;
+}
+
+.m-r-1 {
+  margin-right: 10px;
+}
+
+/* padding */
+.p-1 {
+  padding: 10px;
+}
+
+.p-t-1 {
+  padding-top: 10px;
+}
+
+.p-b-1 {
+  padding-bottom: 10px;
+}
+
+.p-l-1 {
+  padding-left: 10px;
+}
+
+.p-r-1 {
+  padding-right: 10px;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+/* text */
+.t-c {
+  text-align: center;
+}
+
+/* pointer */
+.cu-p {
+  cursor: pointer;
+}
+
+
+/* 隐藏按钮 */
+.hide-btn {
+  i {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 1px;
+      position: absolute;
+      top: 6px;
+      left: -2px;
+      background: #fff;
+      transform: rotate(45deg);
+    }
+  }
+}

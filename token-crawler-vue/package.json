@@ -1,0 +1,38 @@
+{
+  "name": "token-crawler-vue",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:test": "vue-cli-service build --mode testing",
+    "build:stage": "vue-cli-service build --mode staging"
+  },
+  "dependencies": {
+    "@antv/g6": "^4.2.5",
+    "axios": "0.18.1",
+    "echarts": "^5.2.1",
+    "element-ui": "^2.4.5",
+    "jquery": "^3.6.0",
+    "js-md5": "^0.7.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

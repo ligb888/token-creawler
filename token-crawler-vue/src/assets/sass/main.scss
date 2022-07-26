@@ -1,0 +1,16 @@
+/**
+ * @author Gjf
+ * @date 2021-08-16
+ * @description style 入口文件
+*/
+
+@charset 'utf-8';
+
+@import './reset.scss';
+@import './themes.scss';
+@import './base.scss';
+@import './element/el-table.scss';
+@import './element/el-dialog.scss';
+@import './element/el-pagination.scss';
+@import './element/el-button.scss';
+@import './element/el-dropdown.scss';

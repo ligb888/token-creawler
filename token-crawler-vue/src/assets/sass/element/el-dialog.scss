@@ -1,0 +1,48 @@
+/**
+ * @author Gjf
+ * @date 2021-08-17
+ * @description el-dialog style
+*/
+
+.com-dialog>.el-dialog {
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 10px 100%, 0 calc(100% - 10px), 0 calc(100% - 50px), 10px calc(100% - 52px), 10px 52px, 0 50px, 0 10px);
+
+
+  .el-dialog__header {
+    position: relative;
+
+    .el-dialog__title {
+      width: 300px;
+      height: 50px;
+      line-height: 50px;
+      position: absolute;
+      left: calc(50% - 150px);
+      top: 0;
+      background: #3f6093;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    }
+
+    .el-icon-close {
+      font-size: 24px;
+      color: #475aa6;
+    }
+  }
+
+  .el-dialog__body {
+    min-height: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+  .el-collapse-item__wrap {
+    overflow-y: auto;
+  }
+
+  /* dialog-btn */
+  .footer-btn {
+    justify-content: center;
+  }
+}

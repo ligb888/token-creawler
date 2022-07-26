@@ -1,0 +1,76 @@
+/**
+ * @author Gjf
+ * @date 2021-08-17
+ * @description el-table style
+*/
+
+.com-table.el-table {
+  background-color: transparent;
+
+  table,
+  td,
+  tr,
+  th {
+    font-size: 14px;
+  }
+
+  .el-table__header-wrapper {
+
+    tr,
+    th {
+      background: #3f6093;
+      color: #fff;
+    }
+  }
+
+  .el-table__body {
+
+    /* 鼠标滑过style */
+    tr {
+      position: relative;
+
+      &:hover {
+        td:first-child {
+          position: relative;
+
+          .cell {
+            &::before {
+              content: '';
+              display: inline-block;
+              width: 10px;
+              height: 100%;
+              background: #3f6093;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    /* 序号 */
+    .number>.cell>div {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 50%;
+      background: #3f6093;
+      color: #fff;
+      box-shadow: -1px 0px 4px 1px #a0b6d5;
+    }
+  }
+}
+
+.border.el-table {
+  box-shadow: 0px 2px 4px 0px #cecece;
+}
+
+.el-table--group::after,
+.el-table--border::after,
+.el-table::before {
+  background-color: transparent !important;
+}

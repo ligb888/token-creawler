@@ -1,0 +1,22 @@
+/**
+ * @author Gjf
+ * @date 2021-08-17
+ * @description el-pagination 分页器 style
+*/
+
+.com-pagination.el-pagination {
+  display: flex;
+  justify-content: center;
+  
+  .btn-prev,.btn-next {
+    margin: 0 !important;
+    border-radius: 0;
+  }
+
+  .el-pager {
+    .number,.el-icon-more,.el-icon-d-arrow-right,.el-icon-d-arrow-left{
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+}

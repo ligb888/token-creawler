@@ -1,0 +1,82 @@
+/**
+ * @author Gjf
+ * @date 2021-08-16
+ * @description 重置默认属性
+*/
+
+@charset 'utf-8';
+
+/* CSS Document */
+body,div,dl,dt,dd,ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p {
+  padding: 0;
+  margin: 0;
+}
+
+table,td,tr,th {
+  font-size: 12px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: top;
+  border: none;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+caption,th {
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+abbr,acronym {
+  border: 0;
+}
+
+address,caption,cite,code,dfn,em,th,var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* link color font */
+a {
+  text-decoration: none;
+
+  &:link {
+    color: black;
+  }
+
+  &:visited {
+    color: black;
+  }
+
+  &:hover {
+    color: black;
+  }
+
+  &:active {
+    color: black;
+  }
+}
+
+//去掉number input三角形
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+/* font */
+@font-face {
+  font-family: 'FZCTHJW';
+  src: url('~@/assets/font/FZCTHJW.TTF'),
+    url('~@/assets/font/FZCTHJW.TTF');
+}

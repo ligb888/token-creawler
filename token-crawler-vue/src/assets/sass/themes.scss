@@ -1,0 +1,27 @@
+/**
+ * @author Gjf
+ * @date 2021-08-16
+ * @description 主题配置文件
+*/
+
+/* 主色调 */
+$master-color : #0b2353;
+
+/* 辅色调 */
+$assist-color : #3f6093;
+
+
+/* 导航栏背景 */
+.nav-bg {
+  background-image: linear-gradient(to right, $master-color, #0c3875, $master-color);
+}
+
+/** 按钮 **/
+.btn-info {
+  background: #1f3e87;
+}
+
+/* 内容区域背景 */
+.main-bg {
+  background: url('~@/assets/images/layout/bg.png') no-repeat 100%;
+}
